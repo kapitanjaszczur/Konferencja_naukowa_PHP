@@ -14,7 +14,9 @@ Portal służy do obsługi konferencji naukowej. Obsługuje 3 typy użytkownikó
 
 ## Uruchomienie projektu
 Pobierz repozytorium do lokalnego katalogu (odradzam pulpit). Następnie uruchom konsolę cmd i przejdź do lokalizacji w której znajdują się pliki PHP. Użyj polecenia:
+
     php -S 127.0.0.1:8000
+    
 Przejdź w przeglądarce pod adres [127.0.0.1:8000/instalator.php](127.0.0.1:8000/instalator.php) i postępuj zgodnie z instrukcjami.
 
 ### Instalator
