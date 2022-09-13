@@ -1,0 +1,59 @@
+body {
+    background: gainsboro;
+    background-attachment: fixed;
+}
+
+.wyśrodkowanie {
+    text-align: center;
+}
+
+.wyjustowanie {
+    text-align: justify;
+}
+
+.stopka {
+    font-size: 10px;
+    text-align: end;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.navbarbutton {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbarbutton:hover {
+    background-color: lightcoral;
+    text-decoration: none;
+    color: black;
+}
+
+.navbarbtn {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarbtn:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.admin {
+    margin-left: 16px;
+}
+
+#navbar {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(127, 219, 255);
+    text-decoration: none;
+    color: black;
+}
+
+#logout-btn {
+    float: right;
+    margin-right: 5%;
+}
