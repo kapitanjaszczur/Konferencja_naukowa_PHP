@@ -1,23 +1,25 @@
 # KonferencjaNaukowa
-Portal służący do obsługi konferencji naukowej, przygotowany w technologiach PHP, HTML, CSS, bootstrap5.
 
 ## Autor
 Autorem portalu jest Jakub Klonowski (jakubpklonowski@gmail.com).
 
-## Wymagania
+## Wymagania i technologie
 - MariaDB
 - PHP 8.1
-- bootstrap5
+- HTML, CSS, bootstrap5
 
 ## Opis
 Portal służy do obsługi konferencji naukowej. Obsługuje 3 typy użytkowników: gości, uczestników i administratorów. Każda grupa użytkowników otrzymuje informacje od organizatora innym kanałem. Aby korzystać z uprawnień uczestnika i administratora należy być zalogowanym na aktywne konto.
 
 ## Uruchomienie projektu
+### Windows
 Pobierz repozytorium do lokalnego katalogu (odradzam pulpit). Następnie uruchom konsolę cmd i przejdź do lokalizacji w której znajdują się pliki PHP. Użyj polecenia:
 
     php -S 127.0.0.1:8000
     
 Przejdź w przeglądarce pod adres [127.0.0.1:8000/instalator.php](127.0.0.1:8000/instalator.php) i postępuj zgodnie z instrukcjami.
+### Linux
+Portal można uruchomić analogicznie w systemie Linux.
 
 ### Instalator
 Przejdź przez wszystkie kroki instalatora - przeprowadzi on proces stworzenia pliku konfiguracyjnego do istniejącej bazy danych. O tym jak skonfigurować bazę przeczytasz w kolejnym podrozdziale.
